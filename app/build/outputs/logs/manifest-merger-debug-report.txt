@@ -1,0 +1,929 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e0c6d4333d51c7d302f6eede21171395\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\87919fca7b101fa2c864b6baa29f0755\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a4b0150615739c83604c987e90028716\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\09137de12304b6a887bb5928602247b0\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.dagger:hilt-android:2.50] C:\Users\vivia\.gradle\caches\8.13\transforms\9775de69de8f718de53430f15acc46e2\transformed\hilt-android-2.50\AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.navigation:navigation-compose:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\0f10e3fc35ab3a74d028a733cff8f629\transformed\navigation-compose-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\1eb07c771e2a2161645aecb2ed81a144\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.accompanist:accompanist-pager:0.34.0] C:\Users\vivia\.gradle\caches\8.13\transforms\83fce2cd156466a1d6721d8ebb2f2ac7\transformed\accompanist-pager-0.34.0\AndroidManifest.xml:17:1-23:12
+MERGED from [dev.chrisbanes.snapper:snapper:0.2.2] C:\Users\vivia\.gradle\caches\8.13\transforms\438afa091871826c603f83d4a6f9adf7\transformed\snapper-0.2.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\c2aecdcf4ad1d0cabc166eb99c242b54\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\ea8c86ca0cae76c57228df029e3bd4cb\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\751ea4804323e253d71cd6bcb96d0d1f\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\9840eaaa7a74eb6e929ae22691b12ec8\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\b17e3eb8028d5d70a46d9e63d32923c3\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2a67bf623408400306f1668b129d1705\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\26abe8fd6719fe4cede1b055594e0a6e\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\1400fbc60e7464bab234279c4e8638fc\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\304b6aa421c69d9dc6ad507a8dd33115\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2a1af46c54e8b34c202b815468716fa8\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\6d06dad8495f4e0674adb0f42d3386b3\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\3d5287ef3980aeaa4ccbf63436bbd368\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2f8819d4bc251b4219888a1b00fe9af2\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\bfe99977f7fac8296b12e8838278ec5e\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\ae86f23297251fc6c2107d93cce596b6\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\358efeb735b57967a46076fcfb155ba3\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\f424e251102fd716e7bf152b9d46cb6e\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\fb92b6f09716fdcdda15215410c68f5f\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\5067e421dab6c44c5f1fb237d4d215a5\transformed\runtime-livedata-1.7.4\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\31b71bc724f0f89cf80a703344384510\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\61f6d9093b9d77ba846ed473d0b34d0d\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\bf93b0ec3f224b5f10f4cbedfce89ea8\transformed\firebase-analytics-ktx-21.5.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7f5987aa41dd9b99817b7ae9737bf42a\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-analytics:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7825980cebbf049f1f6a1ca335305b03\transformed\firebase-analytics-21.5.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:17:1-43:12
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\fa60202abbffdc24fb205805718fbdce\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\2bf7be46db6cdd54bb995ce22d053b7a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\1e46eaa7a5f2283211ed7b184c444be3\transformed\play-services-measurement-sdk-21.5.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\5084282f22d5fd20526af4137f3b26f7\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\bbd7a5484243f886f42fd911cb3ec90f\transformed\recaptcha-18.4.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\898b806e47ca9818a8354a871c071f33\transformed\integrity-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\abea6b8524c63daaf2c5b9695ed46f1c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\b5b3ca6363ab1055434c468701018f75\transformed\play-services-measurement-base-21.5.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vivia\.gradle\caches\8.13\transforms\a8ce02170f418f99d87354ef989ab99a\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\f41efe82dd1337b9c00a435212c5cbf1\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d62d85e398b519295a5d488fd581179c\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\04d90ac8df7a5c2bb6107e18acd44f59\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\de46d0f61afc6e3919dff9d4e8624abf\transformed\play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\a7d69112d0ad91dae1a9149cd79f2bd7\transformed\navigation-runtime-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e3d1eee23751aaf8b0abab8d8eead371\transformed\navigation-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\2407fb39d3699c03f21fb6649fb6dc55\transformed\navigation-common-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\9c572e8685126ed6968e22fa43cee055\transformed\navigation-common-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\15647a9a4a74be41385cf4737e36b60a\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\b6e7b5749b7bb1650f973e473c0486a7\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\144830d46ffe1cc69b3f09a22e5fac20\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\8baa71761728e3559225bcc652f8cd53\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\vivia\.gradle\caches\8.13\transforms\0b49d24324e6e6f2f68af4636e020b01\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\6f678f16e1b91680aaecaa69520e5c99\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\77fe5258a06b18b21c3fbd8c27f682db\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\vivia\.gradle\caches\8.13\transforms\f62a0a38811ff112b13201fa453ccfe6\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vivia\.gradle\caches\8.13\transforms\7c02636ba62c5d19ba61e54e6261d9be\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\8d03e5de8b91b1fffea83eb7ee91d8fa\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vivia\.gradle\caches\8.13\transforms\09cec93c49cde4d8ae6077ccebf1a214\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vivia\.gradle\caches\8.13\transforms\8c05483080a7ee119fea16d31c5ebf0a\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\8154bac5005cbd1b870351984f752d45\transformed\lifecycle-viewmodel-2.8.3\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\fb109e55758a7579cf996c08860bed88\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\1e23a3e23bbcb9f5608c84bf9d800dc6\transformed\lifecycle-livedata-core-ktx-2.8.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\1217625479b0fa54bbb7aeaf0d1e997a\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\6cc9c5cbe7fb5413ce2d4007d585d721\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\5ff0fb4ba4de0c1a346ca6f964ab3250\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\37d4c35f047b4a95da91acea1181a0b4\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\0c644fca08319b6744160dc443d5bc4c\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\e5b8a2a113470552103d7676bc61d92e\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\9a561f07f04ba3b76e331e6f38fe911f\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\b1db21882377b69b663d784a1b7b4c39\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\cb0d32275270fddaa567d48f4654edde\transformed\play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\949dbdbb335a6aec4e209a671a2f236a\transformed\fragment-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\9ecf9c2fb94e3cee57f810423dc68755\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\aba94266313fff0465794ed6ddfb9f60\transformed\lifecycle-livedata-2.8.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\4ee1d36ae3e4f2ef9d83494411bbe3db\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\97d3fd32f3f6fd2ae440cccc7b1cddf1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\06c43d111eda2135a93297a9f4eac3ac\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\a9e453b89467de9ed7b3ac961a9294ab\transformed\ui-test-manifest-1.7.4\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\vivia\.gradle\caches\8.13\transforms\92545cd093d9f52c245b210037039d7b\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\vivia\.gradle\caches\8.13\transforms\f4837f13cb15d2783f868ee72b18a16b\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\vivia\.gradle\caches\8.13\transforms\991ef5b6b8fec14eb00131e02d42bb61\transformed\activity-compose-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\763fde739ae86a4688f5d76bc0e9324e\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\4cbdbdce1a217e5a0933f13ec5acf034\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\vivia\.gradle\caches\8.13\transforms\b4dd342f7ea4e9b151a4c2593e5d77c6\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\0bc1c846fe06df418fe78a9cd9ea98e3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\5219b261e6e1fc90b8ec8dc7f03eda1c\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\vivia\.gradle\caches\8.13\transforms\0534a31ea1631dd5efc48d53e73ebad2\transformed\firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\59f6d8607f596e7d991bd172c64f5a04\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\a2f6ae91087e003a5bb6a9be62cd01e9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\f4de5dae98feb68ae6de129b57e71041\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\5e220b6fd9987f57a9d07fadb4df4771\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\6366fbfec6b3b85725f4a43645c6db8b\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\ffcefd4bdc0b488286170b0ecaa42077\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] C:\Users\vivia\.gradle\caches\8.13\transforms\46f4d11f40ab4e437a8ecf7d76b79d79\transformed\dagger-lint-aar-2.50\AndroidManifest.xml:16:1-19:12
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\vivia\.gradle\caches\8.13\transforms\b17561d204398b886acc7857a2ce24a5\transformed\grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\57914f320349747595559261aa16f2a7\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+	package
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:5:5-21:19
+INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e0c6d4333d51c7d302f6eede21171395\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e0c6d4333d51c7d302f6eede21171395\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2f8819d4bc251b4219888a1b00fe9af2\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2f8819d4bc251b4219888a1b00fe9af2\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\31b71bc724f0f89cf80a703344384510\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\31b71bc724f0f89cf80a703344384510\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\61f6d9093b9d77ba846ed473d0b34d0d\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\61f6d9093b9d77ba846ed473d0b34d0d\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\bf93b0ec3f224b5f10f4cbedfce89ea8\transformed\firebase-analytics-ktx-21.5.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\bf93b0ec3f224b5f10f4cbedfce89ea8\transformed\firebase-analytics-ktx-21.5.1\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7f5987aa41dd9b99817b7ae9737bf42a\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7f5987aa41dd9b99817b7ae9737bf42a\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-analytics:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7825980cebbf049f1f6a1ca335305b03\transformed\firebase-analytics-21.5.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7825980cebbf049f1f6a1ca335305b03\transformed\firebase-analytics-21.5.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\fa60202abbffdc24fb205805718fbdce\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\fa60202abbffdc24fb205805718fbdce\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\2bf7be46db6cdd54bb995ce22d053b7a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\2bf7be46db6cdd54bb995ce22d053b7a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\1e46eaa7a5f2283211ed7b184c444be3\transformed\play-services-measurement-sdk-21.5.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\1e46eaa7a5f2283211ed7b184c444be3\transformed\play-services-measurement-sdk-21.5.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\898b806e47ca9818a8354a871c071f33\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\898b806e47ca9818a8354a871c071f33\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\abea6b8524c63daaf2c5b9695ed46f1c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\abea6b8524c63daaf2c5b9695ed46f1c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\b5b3ca6363ab1055434c468701018f75\transformed\play-services-measurement-base-21.5.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\b5b3ca6363ab1055434c468701018f75\transformed\play-services-measurement-base-21.5.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vivia\.gradle\caches\8.13\transforms\a8ce02170f418f99d87354ef989ab99a\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vivia\.gradle\caches\8.13\transforms\a8ce02170f418f99d87354ef989ab99a\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\f41efe82dd1337b9c00a435212c5cbf1\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\f41efe82dd1337b9c00a435212c5cbf1\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\04d90ac8df7a5c2bb6107e18acd44f59\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\04d90ac8df7a5c2bb6107e18acd44f59\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\de46d0f61afc6e3919dff9d4e8624abf\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\de46d0f61afc6e3919dff9d4e8624abf\transformed\play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vivia\.gradle\caches\8.13\transforms\7c02636ba62c5d19ba61e54e6261d9be\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vivia\.gradle\caches\8.13\transforms\7c02636ba62c5d19ba61e54e6261d9be\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\5ff0fb4ba4de0c1a346ca6f964ab3250\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\5ff0fb4ba4de0c1a346ca6f964ab3250\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\b1db21882377b69b663d784a1b7b4c39\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\b1db21882377b69b663d784a1b7b4c39\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\cb0d32275270fddaa567d48f4654edde\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\cb0d32275270fddaa567d48f4654edde\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\a9e453b89467de9ed7b3ac961a9294ab\transformed\ui-test-manifest-1.7.4\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\a9e453b89467de9ed7b3ac961a9294ab\transformed\ui-test-manifest-1.7.4\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\0bc1c846fe06df418fe78a9cd9ea98e3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\0bc1c846fe06df418fe78a9cd9ea98e3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\a2f6ae91087e003a5bb6a9be62cd01e9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\a2f6ae91087e003a5bb6a9be62cd01e9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:12:9-48
+	android:name
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:6:9-38
+activity#com.greenquest.app.MainActivity
+ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:13:9-20:20
+	android:exported
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:14:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:16:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e0c6d4333d51c7d302f6eede21171395\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e0c6d4333d51c7d302f6eede21171395\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\87919fca7b101fa2c864b6baa29f0755\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\87919fca7b101fa2c864b6baa29f0755\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a4b0150615739c83604c987e90028716\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a4b0150615739c83604c987e90028716\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\09137de12304b6a887bb5928602247b0\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\09137de12304b6a887bb5928602247b0\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.dagger:hilt-android:2.50] C:\Users\vivia\.gradle\caches\8.13\transforms\9775de69de8f718de53430f15acc46e2\transformed\hilt-android-2.50\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.50] C:\Users\vivia\.gradle\caches\8.13\transforms\9775de69de8f718de53430f15acc46e2\transformed\hilt-android-2.50\AndroidManifest.xml:18:3-42
+MERGED from [androidx.navigation:navigation-compose:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\0f10e3fc35ab3a74d028a733cff8f629\transformed\navigation-compose-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\0f10e3fc35ab3a74d028a733cff8f629\transformed\navigation-compose-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\1eb07c771e2a2161645aecb2ed81a144\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\1eb07c771e2a2161645aecb2ed81a144\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-pager:0.34.0] C:\Users\vivia\.gradle\caches\8.13\transforms\83fce2cd156466a1d6721d8ebb2f2ac7\transformed\accompanist-pager-0.34.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-pager:0.34.0] C:\Users\vivia\.gradle\caches\8.13\transforms\83fce2cd156466a1d6721d8ebb2f2ac7\transformed\accompanist-pager-0.34.0\AndroidManifest.xml:21:5-44
+MERGED from [dev.chrisbanes.snapper:snapper:0.2.2] C:\Users\vivia\.gradle\caches\8.13\transforms\438afa091871826c603f83d4a6f9adf7\transformed\snapper-0.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [dev.chrisbanes.snapper:snapper:0.2.2] C:\Users\vivia\.gradle\caches\8.13\transforms\438afa091871826c603f83d4a6f9adf7\transformed\snapper-0.2.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\c2aecdcf4ad1d0cabc166eb99c242b54\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\c2aecdcf4ad1d0cabc166eb99c242b54\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\ea8c86ca0cae76c57228df029e3bd4cb\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\ea8c86ca0cae76c57228df029e3bd4cb\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\751ea4804323e253d71cd6bcb96d0d1f\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\751ea4804323e253d71cd6bcb96d0d1f\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\9840eaaa7a74eb6e929ae22691b12ec8\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\9840eaaa7a74eb6e929ae22691b12ec8\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\b17e3eb8028d5d70a46d9e63d32923c3\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\b17e3eb8028d5d70a46d9e63d32923c3\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2a67bf623408400306f1668b129d1705\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2a67bf623408400306f1668b129d1705\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\26abe8fd6719fe4cede1b055594e0a6e\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\26abe8fd6719fe4cede1b055594e0a6e\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\1400fbc60e7464bab234279c4e8638fc\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\1400fbc60e7464bab234279c4e8638fc\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\304b6aa421c69d9dc6ad507a8dd33115\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\304b6aa421c69d9dc6ad507a8dd33115\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2a1af46c54e8b34c202b815468716fa8\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2a1af46c54e8b34c202b815468716fa8\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\6d06dad8495f4e0674adb0f42d3386b3\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\6d06dad8495f4e0674adb0f42d3386b3\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\3d5287ef3980aeaa4ccbf63436bbd368\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\3d5287ef3980aeaa4ccbf63436bbd368\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2f8819d4bc251b4219888a1b00fe9af2\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2f8819d4bc251b4219888a1b00fe9af2\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\bfe99977f7fac8296b12e8838278ec5e\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\bfe99977f7fac8296b12e8838278ec5e\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\ae86f23297251fc6c2107d93cce596b6\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\ae86f23297251fc6c2107d93cce596b6\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\358efeb735b57967a46076fcfb155ba3\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\358efeb735b57967a46076fcfb155ba3\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\f424e251102fd716e7bf152b9d46cb6e\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\f424e251102fd716e7bf152b9d46cb6e\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\fb92b6f09716fdcdda15215410c68f5f\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\fb92b6f09716fdcdda15215410c68f5f\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\5067e421dab6c44c5f1fb237d4d215a5\transformed\runtime-livedata-1.7.4\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\5067e421dab6c44c5f1fb237d4d215a5\transformed\runtime-livedata-1.7.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\31b71bc724f0f89cf80a703344384510\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\31b71bc724f0f89cf80a703344384510\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\61f6d9093b9d77ba846ed473d0b34d0d\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\61f6d9093b9d77ba846ed473d0b34d0d\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\bf93b0ec3f224b5f10f4cbedfce89ea8\transformed\firebase-analytics-ktx-21.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\bf93b0ec3f224b5f10f4cbedfce89ea8\transformed\firebase-analytics-ktx-21.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7f5987aa41dd9b99817b7ae9737bf42a\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7f5987aa41dd9b99817b7ae9737bf42a\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7825980cebbf049f1f6a1ca335305b03\transformed\firebase-analytics-21.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7825980cebbf049f1f6a1ca335305b03\transformed\firebase-analytics-21.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\fa60202abbffdc24fb205805718fbdce\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\fa60202abbffdc24fb205805718fbdce\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\2bf7be46db6cdd54bb995ce22d053b7a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\2bf7be46db6cdd54bb995ce22d053b7a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\1e46eaa7a5f2283211ed7b184c444be3\transformed\play-services-measurement-sdk-21.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\1e46eaa7a5f2283211ed7b184c444be3\transformed\play-services-measurement-sdk-21.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\5084282f22d5fd20526af4137f3b26f7\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\5084282f22d5fd20526af4137f3b26f7\transformed\play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\bbd7a5484243f886f42fd911cb3ec90f\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\bbd7a5484243f886f42fd911cb3ec90f\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\898b806e47ca9818a8354a871c071f33\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\898b806e47ca9818a8354a871c071f33\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\abea6b8524c63daaf2c5b9695ed46f1c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\abea6b8524c63daaf2c5b9695ed46f1c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\b5b3ca6363ab1055434c468701018f75\transformed\play-services-measurement-base-21.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\b5b3ca6363ab1055434c468701018f75\transformed\play-services-measurement-base-21.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vivia\.gradle\caches\8.13\transforms\a8ce02170f418f99d87354ef989ab99a\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\vivia\.gradle\caches\8.13\transforms\a8ce02170f418f99d87354ef989ab99a\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\f41efe82dd1337b9c00a435212c5cbf1\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\f41efe82dd1337b9c00a435212c5cbf1\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d62d85e398b519295a5d488fd581179c\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d62d85e398b519295a5d488fd581179c\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\04d90ac8df7a5c2bb6107e18acd44f59\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\04d90ac8df7a5c2bb6107e18acd44f59\transformed\firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\de46d0f61afc6e3919dff9d4e8624abf\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\de46d0f61afc6e3919dff9d4e8624abf\transformed\play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\a7d69112d0ad91dae1a9149cd79f2bd7\transformed\navigation-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\a7d69112d0ad91dae1a9149cd79f2bd7\transformed\navigation-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e3d1eee23751aaf8b0abab8d8eead371\transformed\navigation-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e3d1eee23751aaf8b0abab8d8eead371\transformed\navigation-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\2407fb39d3699c03f21fb6649fb6dc55\transformed\navigation-common-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\2407fb39d3699c03f21fb6649fb6dc55\transformed\navigation-common-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\9c572e8685126ed6968e22fa43cee055\transformed\navigation-common-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\9c572e8685126ed6968e22fa43cee055\transformed\navigation-common-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\15647a9a4a74be41385cf4737e36b60a\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\15647a9a4a74be41385cf4737e36b60a\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\b6e7b5749b7bb1650f973e473c0486a7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\b6e7b5749b7bb1650f973e473c0486a7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\144830d46ffe1cc69b3f09a22e5fac20\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\144830d46ffe1cc69b3f09a22e5fac20\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\8baa71761728e3559225bcc652f8cd53\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\8baa71761728e3559225bcc652f8cd53\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\vivia\.gradle\caches\8.13\transforms\0b49d24324e6e6f2f68af4636e020b01\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\vivia\.gradle\caches\8.13\transforms\0b49d24324e6e6f2f68af4636e020b01\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\6f678f16e1b91680aaecaa69520e5c99\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\6f678f16e1b91680aaecaa69520e5c99\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\77fe5258a06b18b21c3fbd8c27f682db\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\77fe5258a06b18b21c3fbd8c27f682db\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\vivia\.gradle\caches\8.13\transforms\f62a0a38811ff112b13201fa453ccfe6\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Users\vivia\.gradle\caches\8.13\transforms\f62a0a38811ff112b13201fa453ccfe6\transformed\ads-adservices-java-1.0.0-beta05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vivia\.gradle\caches\8.13\transforms\7c02636ba62c5d19ba61e54e6261d9be\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vivia\.gradle\caches\8.13\transforms\7c02636ba62c5d19ba61e54e6261d9be\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\8d03e5de8b91b1fffea83eb7ee91d8fa\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\8d03e5de8b91b1fffea83eb7ee91d8fa\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vivia\.gradle\caches\8.13\transforms\09cec93c49cde4d8ae6077ccebf1a214\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\vivia\.gradle\caches\8.13\transforms\09cec93c49cde4d8ae6077ccebf1a214\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vivia\.gradle\caches\8.13\transforms\8c05483080a7ee119fea16d31c5ebf0a\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vivia\.gradle\caches\8.13\transforms\8c05483080a7ee119fea16d31c5ebf0a\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\8154bac5005cbd1b870351984f752d45\transformed\lifecycle-viewmodel-2.8.3\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\8154bac5005cbd1b870351984f752d45\transformed\lifecycle-viewmodel-2.8.3\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\fb109e55758a7579cf996c08860bed88\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\fb109e55758a7579cf996c08860bed88\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\1e23a3e23bbcb9f5608c84bf9d800dc6\transformed\lifecycle-livedata-core-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\1e23a3e23bbcb9f5608c84bf9d800dc6\transformed\lifecycle-livedata-core-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\1217625479b0fa54bbb7aeaf0d1e997a\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\1217625479b0fa54bbb7aeaf0d1e997a\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\6cc9c5cbe7fb5413ce2d4007d585d721\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\6cc9c5cbe7fb5413ce2d4007d585d721\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\5ff0fb4ba4de0c1a346ca6f964ab3250\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\5ff0fb4ba4de0c1a346ca6f964ab3250\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\37d4c35f047b4a95da91acea1181a0b4\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\37d4c35f047b4a95da91acea1181a0b4\transformed\lifecycle-viewmodel-savedstate-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\0c644fca08319b6744160dc443d5bc4c\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\0c644fca08319b6744160dc443d5bc4c\transformed\lifecycle-livedata-core-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\e5b8a2a113470552103d7676bc61d92e\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\e5b8a2a113470552103d7676bc61d92e\transformed\lifecycle-viewmodel-ktx-2.8.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\9a561f07f04ba3b76e331e6f38fe911f\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\9a561f07f04ba3b76e331e6f38fe911f\transformed\firebase-installations-interop-17.1.1\AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\b1db21882377b69b663d784a1b7b4c39\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\b1db21882377b69b663d784a1b7b4c39\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\cb0d32275270fddaa567d48f4654edde\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\cb0d32275270fddaa567d48f4654edde\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\949dbdbb335a6aec4e209a671a2f236a\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\949dbdbb335a6aec4e209a671a2f236a\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\9ecf9c2fb94e3cee57f810423dc68755\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\9ecf9c2fb94e3cee57f810423dc68755\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\aba94266313fff0465794ed6ddfb9f60\transformed\lifecycle-livedata-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\aba94266313fff0465794ed6ddfb9f60\transformed\lifecycle-livedata-2.8.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\4ee1d36ae3e4f2ef9d83494411bbe3db\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\4ee1d36ae3e4f2ef9d83494411bbe3db\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\97d3fd32f3f6fd2ae440cccc7b1cddf1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\97d3fd32f3f6fd2ae440cccc7b1cddf1\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\06c43d111eda2135a93297a9f4eac3ac\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\06c43d111eda2135a93297a9f4eac3ac\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\a9e453b89467de9ed7b3ac961a9294ab\transformed\ui-test-manifest-1.7.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\a9e453b89467de9ed7b3ac961a9294ab\transformed\ui-test-manifest-1.7.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\vivia\.gradle\caches\8.13\transforms\92545cd093d9f52c245b210037039d7b\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\vivia\.gradle\caches\8.13\transforms\92545cd093d9f52c245b210037039d7b\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\vivia\.gradle\caches\8.13\transforms\f4837f13cb15d2783f868ee72b18a16b\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\vivia\.gradle\caches\8.13\transforms\f4837f13cb15d2783f868ee72b18a16b\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\vivia\.gradle\caches\8.13\transforms\991ef5b6b8fec14eb00131e02d42bb61\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\vivia\.gradle\caches\8.13\transforms\991ef5b6b8fec14eb00131e02d42bb61\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\763fde739ae86a4688f5d76bc0e9324e\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\763fde739ae86a4688f5d76bc0e9324e\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\4cbdbdce1a217e5a0933f13ec5acf034\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\4cbdbdce1a217e5a0933f13ec5acf034\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\vivia\.gradle\caches\8.13\transforms\b4dd342f7ea4e9b151a4c2593e5d77c6\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\vivia\.gradle\caches\8.13\transforms\b4dd342f7ea4e9b151a4c2593e5d77c6\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\0bc1c846fe06df418fe78a9cd9ea98e3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\0bc1c846fe06df418fe78a9cd9ea98e3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\5219b261e6e1fc90b8ec8dc7f03eda1c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\5219b261e6e1fc90b8ec8dc7f03eda1c\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\vivia\.gradle\caches\8.13\transforms\0534a31ea1631dd5efc48d53e73ebad2\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\vivia\.gradle\caches\8.13\transforms\0534a31ea1631dd5efc48d53e73ebad2\transformed\firebase-components-17.1.5\AndroidManifest.xml:18:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\59f6d8607f596e7d991bd172c64f5a04\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\59f6d8607f596e7d991bd172c64f5a04\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\a2f6ae91087e003a5bb6a9be62cd01e9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\a2f6ae91087e003a5bb6a9be62cd01e9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\f4de5dae98feb68ae6de129b57e71041\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\f4de5dae98feb68ae6de129b57e71041\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\5e220b6fd9987f57a9d07fadb4df4771\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\5e220b6fd9987f57a9d07fadb4df4771\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\6366fbfec6b3b85725f4a43645c6db8b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\6366fbfec6b3b85725f4a43645c6db8b\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\ffcefd4bdc0b488286170b0ecaa42077\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\ffcefd4bdc0b488286170b0ecaa42077\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] C:\Users\vivia\.gradle\caches\8.13\transforms\46f4d11f40ab4e437a8ecf7d76b79d79\transformed\dagger-lint-aar-2.50\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] C:\Users\vivia\.gradle\caches\8.13\transforms\46f4d11f40ab4e437a8ecf7d76b79d79\transformed\dagger-lint-aar-2.50\AndroidManifest.xml:18:3-42
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\vivia\.gradle\caches\8.13\transforms\b17561d204398b886acc7857a2ce24a5\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\vivia\.gradle\caches\8.13\transforms\b17561d204398b886acc7857a2ce24a5\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\57914f320349747595559261aa16f2a7\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\57914f320349747595559261aa16f2a7\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\vivia\CascadeProjects\GreenQuest\app\src\main\AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e0c6d4333d51c7d302f6eede21171395\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e0c6d4333d51c7d302f6eede21171395\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e0c6d4333d51c7d302f6eede21171395\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e0c6d4333d51c7d302f6eede21171395\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e0c6d4333d51c7d302f6eede21171395\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2f8819d4bc251b4219888a1b00fe9af2\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2f8819d4bc251b4219888a1b00fe9af2\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\2f8819d4bc251b4219888a1b00fe9af2\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\31b71bc724f0f89cf80a703344384510\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\61f6d9093b9d77ba846ed473d0b34d0d\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\61f6d9093b9d77ba846ed473d0b34d0d\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\bf93b0ec3f224b5f10f4cbedfce89ea8\transformed\firebase-analytics-ktx-21.5.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\bf93b0ec3f224b5f10f4cbedfce89ea8\transformed\firebase-analytics-ktx-21.5.1\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7f5987aa41dd9b99817b7ae9737bf42a\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7f5987aa41dd9b99817b7ae9737bf42a\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\fa60202abbffdc24fb205805718fbdce\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\fa60202abbffdc24fb205805718fbdce\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\31b71bc724f0f89cf80a703344384510\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\31b71bc724f0f89cf80a703344384510\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:9:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\31b71bc724f0f89cf80a703344384510\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\31b71bc724f0f89cf80a703344384510\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\31b71bc724f0f89cf80a703344384510\transformed\firebase-auth-ktx-22.3.1\AndroidManifest.xml:12:17-119
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\bbd7a5484243f886f42fd911cb3ec90f\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\bbd7a5484243f886f42fd911cb3ec90f\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:25:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\bbd7a5484243f886f42fd911cb3ec90f\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\bbd7a5484243f886f42fd911cb3ec90f\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\vivia\.gradle\caches\8.13\transforms\b17561d204398b886acc7857a2ce24a5\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\vivia\.gradle\caches\8.13\transforms\b17561d204398b886acc7857a2ce24a5\transformed\grpc-android-1.57.2\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d9d401cbab769bb4f0331877de9c3856\transformed\firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.10.3] C:\Users\vivia\.gradle\caches\8.13\transforms\84d6529250124eb701573fd0b3d1b9e2\transformed\firebase-firestore-24.10.3\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\61f6d9093b9d77ba846ed473d0b34d0d\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\61f6d9093b9d77ba846ed473d0b34d0d\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\61f6d9093b9d77ba846ed473d0b34d0d\transformed\firebase-storage-ktx-20.3.0\AndroidManifest.xml:13:17-125
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\bf93b0ec3f224b5f10f4cbedfce89ea8\transformed\firebase-analytics-ktx-21.5.1\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\bf93b0ec3f224b5f10f4cbedfce89ea8\transformed\firebase-analytics-ktx-21.5.1\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\bf93b0ec3f224b5f10f4cbedfce89ea8\transformed\firebase-analytics-ktx-21.5.1\AndroidManifest.xml:12:17-129
+meta-data#com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseLegacyRegistrar
+ADDED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7f5987aa41dd9b99817b7ae9737bf42a\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7f5987aa41dd9b99817b7ae9737bf42a\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database-ktx:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\7f5987aa41dd9b99817b7ae9737bf42a\transformed\firebase-database-ktx-20.3.1\AndroidManifest.xml:13:17-127
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:20.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\577c5e0327a0726b9d5d552e5ef08092\transformed\firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\abea6b8524c63daaf2c5b9695ed46f1c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\vivia\.gradle\caches\8.13\transforms\abea6b8524c63daaf2c5b9695ed46f1c\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\918d358cb3390f5d5f25f3e222df547b\transformed\play-services-measurement-sdk-api-21.5.1\AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:27:22-79
+property#android.adservices.AD_SERVICES_CONFIG
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:30:9-32:61
+	android:resource
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\d587866b9a3b73a3d0d3716c30b61efb\transformed\play-services-measurement-api-21.5.1\AndroidManifest.xml:38:17-139
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\58690d8c28b63454911908ac83065ab4\transformed\firebase-database-20.3.1\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:17.1.2] C:\Users\vivia\.gradle\caches\8.13\transforms\47c4f626782c5a6284acb0911adfb842\transformed\firebase-appcheck-17.1.2\AndroidManifest.xml:29:17-117
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\vivia\.gradle\caches\8.13\transforms\c4222dbe4899dd2a4ce35886761d1ead\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\fa60202abbffdc24fb205805718fbdce\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\fa60202abbffdc24fb205805718fbdce\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\fa60202abbffdc24fb205805718fbdce\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] C:\Users\vivia\.gradle\caches\8.13\transforms\d5fb2f039e36bc7b3e75aeb465830ae8\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\03a5403d3d63fecf6e0c1e91d8b3516e\transformed\play-services-measurement-impl-21.5.1\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.5.1] C:\Users\vivia\.gradle\caches\8.13\transforms\e1fb34c18122becd14694a2a7c25bd23\transformed\play-services-measurement-21.5.1\AndroidManifest.xml:40:13-87
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\bbd7a5484243f886f42fd911cb3ec90f\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\vivia\.gradle\caches\8.13\transforms\bbd7a5484243f886f42fd911cb3ec90f\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\de46d0f61afc6e3919dff9d4e8624abf\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\de46d0f61afc6e3919dff9d4e8624abf\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\de46d0f61afc6e3919dff9d4e8624abf\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\vivia\.gradle\caches\8.13\transforms\de46d0f61afc6e3919dff9d4e8624abf\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\5ff0fb4ba4de0c1a346ca6f964ab3250\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\5ff0fb4ba4de0c1a346ca6f964ab3250\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\a2f6ae91087e003a5bb6a9be62cd01e9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivia\.gradle\caches\8.13\transforms\a2f6ae91087e003a5bb6a9be62cd01e9\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\a9a6c377ba1623c0ae767df03893c8d1\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vivia\.gradle\caches\8.13\transforms\7c02636ba62c5d19ba61e54e6261d9be\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vivia\.gradle\caches\8.13\transforms\7c02636ba62c5d19ba61e54e6261d9be\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\vivia\.gradle\caches\8.13\transforms\7c02636ba62c5d19ba61e54e6261d9be\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+permission#com.greenquest.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+uses-permission#com.greenquest.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] C:\Users\vivia\.gradle\caches\8.13\transforms\82e24602ab2da3a3f23d7ce3a58373da\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\5ff0fb4ba4de0c1a346ca6f964ab3250\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\5ff0fb4ba4de0c1a346ca6f964ab3250\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\vivia\.gradle\caches\8.13\transforms\5ff0fb4ba4de0c1a346ca6f964ab3250\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\cb0d32275270fddaa567d48f4654edde\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\cb0d32275270fddaa567d48f4654edde\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\vivia\.gradle\caches\8.13\transforms\cb0d32275270fddaa567d48f4654edde\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\a9e453b89467de9ed7b3ac961a9294ab\transformed\ui-test-manifest-1.7.4\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\a9e453b89467de9ed7b3ac961a9294ab\transformed\ui-test-manifest-1.7.4\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.4] C:\Users\vivia\.gradle\caches\8.13\transforms\a9e453b89467de9ed7b3ac961a9294ab\transformed\ui-test-manifest-1.7.4\AndroidManifest.xml:24:13-63
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vivia\.gradle\caches\8.13\transforms\6e5c9e7c284306198d177eb9f9d18a15\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92

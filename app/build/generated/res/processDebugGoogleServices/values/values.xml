@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://greenquest-5e365-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">540330741482</string>
+    <string name="google_api_key" translatable="false">AIzaSyC4IqYyvHChdd-Mybf4clKtUSea5EGM168</string>
+    <string name="google_app_id" translatable="false">1:540330741482:android:1e8439e4c4aa758ab3d193</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC4IqYyvHChdd-Mybf4clKtUSea5EGM168</string>
+    <string name="google_storage_bucket" translatable="false">greenquest-5e365.firebasestorage.app</string>
+    <string name="project_id" translatable="false">greenquest-5e365</string>
+</resources>
