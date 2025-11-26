@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.greenquest.app-mergeDebugResources-82:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\vivia\\.gradle\\caches\\8.13\\transforms\\971d6ff5effd5f0612851da1c7fc25eb\\transformed\\material-1.13.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,61",
+                        "endOffsets": "105,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

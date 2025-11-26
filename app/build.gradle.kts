@@ -95,6 +95,7 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material:material-icons-extended")
     implementation("androidx.compose.runtime:runtime-livedata")
+    implementation("com.google.android.material:material:1.13.0")
 
     // Accompanist
     implementation("com.google.accompanist:accompanist-pager:0.34.0")
@@ -122,9 +123,10 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
 }
 
-// Fix for KSP with Hilt
+//// Fix for KSP with Hilt
 kapt {
     correctErrorTypes = true
     useBuildCache = true

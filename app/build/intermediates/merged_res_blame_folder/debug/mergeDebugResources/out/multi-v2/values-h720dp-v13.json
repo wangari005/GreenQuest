@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.greenquest.app-mergeDebugResources-82:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\vivia\\.gradle\\caches\\8.13\\transforms\\c97a49b8d653a871ef8406c39914e802\\transformed\\appcompat-1.7.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
